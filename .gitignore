@@ -1,7 +1,6 @@
 Temp/*
-andoroid-build/*
+andoroid-build/**
 Library/ShaderCache/*
 Library/metadata/*
 Assets/GAF/Resources/Cache/*
 player_win*
-andoroid-build
