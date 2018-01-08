@@ -18,7 +18,7 @@ public class LoadScene : MonoBehaviour {
 
     void LoadRandomCharacterScene()
     {
-        Random.seed = System.DateTime.UtcNow.Millisecond;
+        Random.InitState(System.DateTime.UtcNow.Millisecond);
         int randomSceneIndex = Random.Range(1, SceneManager.sceneCountInBuildSettings);
         LoadSceneByIndex(randomSceneIndex);
     }
